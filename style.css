@@ -1,0 +1,115 @@
+body{
+    text-align: center;
+    background: linear-gradient(to right, #e6e6fa, #add8e6);
+
+}
+
+h1{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.card{
+    height: 530px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    box-shadow: 3px 8px 8px black;
+}
+#subhead{
+    text-align: left;
+    font-size: 20px;
+}
+
+
+textarea {
+    width: 95%; /* Adjust width as needed */
+    height: 405px; /* Fixed height */
+    background-color: transparent; /* Make it transparent */
+    border: 2px solid black; /* Add a border */
+    border-radius: 10px; /* Round the corners */
+    padding: 15px; /* Add padding inside the textarea */
+    font-family: 'Arial', sans-serif; /* Use a cleaner font */
+    font-size: 20px; /* Make the text larger */
+    color: black; /* Set the text color */
+    resize: none; /* Prevent resizing */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+}
+
+#save-draft, #show-drafts, #delete-drafts {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 8px 15px; /* Padding around the text */
+    border: none; /* Remove border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    margin: 5px; /* Add space between buttons */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+#save-draft:hover, #show-drafts:hover, #delete-drafts:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+
+#draft-name {
+    width: 30%; /* Adjust width */
+    height: 20px; /* Height for the input box */
+    padding: 5px; /* Padding inside the input */
+    margin-top: 5px; /* Space at the top */
+    
+    border: 2px solid black; /* Border around the input */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Adjust font size */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    outline: none; /* Remove default outline */
+    transition: border-color 0.3s ease; /* Smooth transition on focus */
+}
+
+#draft-name:focus {
+    border-color: #4CAF50; /* Change border color on focus */
+}
+
+
+.button{
+
+height: 100px;
+width: 100px;
+border: 1px solid black;
+border-radius: 5px;
+margin-left: 10px;
+margin-right: 10px;
+display: inline-block;
+}
+
+#gray{
+    background: gray;
+}
+#white {
+    background: white;
+  }
+#blue {
+    background: blue;
+  }
+#yellow {
+    background: yellow;
+}
+#orange{
+    background: orange;
+}
+#red{
+    background: red;
+}
+#pink{
+    background: pink;
+}
+#purple{
+    background: purple;
+}
+#green{
+    background:green;
+}
+

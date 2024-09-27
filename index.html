@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoteSaver</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>NoteSaver</h1>
+    <section class="card">
+        <section id="card-content">
+            <label for="draft-name">Draft Name:</label>
+            <input type="text" id="draft-name" placeholder="Enter draft name">
+            <br><br>
+            <label for="textarea" id="subhead">Write your thought:</label>
+            <br>
+            <textarea id="textarea" cols="170" rows="25"></textarea>
+        </section>
+    </section>
+
+    <button id="save-draft">Save Draft</button>
+    <button id="show-drafts">Show Drafts</button>
+    <button id="delete-drafts">Delete All Drafts</button>
+    
+    <div id="drafts-list"></div>
+
+    <span class="button" id="gray">Gray</span>
+    <span class="button" id="white">White</span>
+    <span class="button" id="blue">Blue</span>
+    <span class="button" id="yellow">Yellow</span>
+    <span class="button" id="orange">Orange</span>
+    <span class="button" id="red">Red</span>
+    <span class="button" id="pink">Pink</span>
+    <span class="button" id="purple">Purple</span>
+    <span class="button" id="green">Green</span>
+
+    <script src="script.js"></script>
+</body>
+</html>
